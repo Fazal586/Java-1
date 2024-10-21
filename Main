@@ -22,15 +22,10 @@ public static void main(String[] args) {
             if(grades[i]<lowest){
                lowest=grades[i];
             }
-       
        }
-     
        double average=sum/numstud;
        System.out.println("Average:"+average);
        System.out.println("highest:"+highest);
        System.out.println("lowest:"+lowest);
-
-   
-
 }
 }
